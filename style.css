@@ -1,0 +1,87 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+  font-size: large;
+}
+
+.calc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(227, 198, 246);
+  border: 3px solid #ab05f3;
+  width: 230px;
+  border-radius: 5px;
+}
+
+/*Titulo*/
+.div_nome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 225px;
+}
+
+.div_display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div_teclas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 225px;
+  flex-wrap: wrap;
+  
+}
+
+.tecla, .delete, .tptw{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aaa;
+  border: 3px solid #b195f4;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin: 1px;
+}
+
+.teclaOp{
+  background-color: #8c5ce5 !important;
+  border-color: #b67ee6 !important;
+}
+
+.tecla:hover{
+  background-color: #8c5ce5;
+  border-color: rgb(149, 0, 255);
+}
+
+/* DISPLAY */
+
+.div_display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #9000ff;
+  width: 225px;
+}
+
+.display {
+  width: 225px;
+  padding: 5px;
+  font-family: monospace;
+  font-size: larger;
+  background-color: #d4b6f5;
+  text-align: right;
+}
+
+.delete {
+  
+}
